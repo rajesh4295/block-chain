@@ -1,0 +1,19 @@
+{
+  "name": "Blockchain",
+  "version": "1.0.0",
+  "description": "Simple Blockchain project",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon node app.js"
+  },
+  "keywords": ["blockchain","block-chain","crypto-js","Bitcoin"],
+  "author": "Rajesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0"
+  }
+}
