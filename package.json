@@ -4,16 +4,23 @@
   "description": "Simple Blockchain project",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "mocha",
     "start": "nodemon node app.js"
   },
-  "keywords": ["blockchain","block-chain","crypto-js","Bitcoin"],
+  "keywords": [
+    "blockchain",
+    "block-chain",
+    "crypto-js",
+    "Bitcoin"
+  ],
   "author": "Rajesh Kumar",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
     "crypto-js": "^3.1.9-1",
     "express": "^4.16.4",
+    "mocha": "^7.0.0",
     "nodemon": "^1.19.0"
   }
 }
